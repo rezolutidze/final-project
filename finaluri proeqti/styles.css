@@ -1,0 +1,88 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+/* Section Headings */
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Paragraphs */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Reforestation, Wildlife, and Education Section */
+.img-fluid.rounded-circle {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px solid #4caf50;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid.rounded-circle:hover {
+    transform: scale(1.1);
+}
+
+.col-md-4 h3 {
+    margin-top: 10px;
+    color: #388e3c;
+    font-weight: bold;
+}
+
+.col-md-4 p {
+    color: #6c757d;
+}
+
+/* Get Involved Section */
+section.text-center img.rounded {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px 0;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+}
+
+section.text-center img.rounded:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #388e3c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
